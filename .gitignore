@@ -1,6 +1,13 @@
 node_modules/
 dist/
+.firebase/
 .env
 .env.local
-.DS_Store
+.env.*.local
 *.log
+.DS_Store
+functions/lib/
+functions/node_modules/
+serviceAccount*.json
+*-firebase-adminsdk*.json
+.runtimeconfig.json

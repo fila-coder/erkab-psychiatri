@@ -1,0 +1,126 @@
+/* Erkab Psychiatry Design Tokens
+   Premium warm clinical identity — calm, credible, human. */
+
+:root {
+  /* Surfaces */
+  --bg: #F7F4EF;
+  --surface: #FFFFFF;
+  --surface-tint: #F0EDE6;
+  --surface-elevated: #FFFFFF;
+
+  /* Text */
+  --ink: #1A2B2E;
+  --muted: #5C6F74;
+  --subtle: #8A9A9E;
+
+  /* Lines */
+  --line: #E2DDD4;
+  --line-strong: #C9C2B5;
+
+  /* Brand */
+  --accent: #0D5C63;
+  --accent-hover: #0A4A50;
+  --accent-soft: #E6F2F3;
+  --accent-ink: #FFFFFF;
+
+  /* Secondary */
+  --sage: #6B8F71;
+  --sage-soft: #E8F0E9;
+  --warm: #C4A574;
+  --warm-soft: #F5EDE0;
+
+  /* Status */
+  --ok: #2A6B4F;
+  --ok-bg: #DDF0E5;
+  --pending: #9A6B1F;
+  --pending-bg: #FBF0D9;
+  --danger: #9B3A3A;
+  --danger-bg: #F8E8E8;
+
+  /* Typography */
+  --font-display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 12px;
+  --radius-full: 999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(26, 43, 46, 0.04);
+  --shadow-md: 0 4px 12px rgba(26, 43, 46, 0.06);
+  --shadow-lg: 0 12px 32px rgba(26, 43, 46, 0.08);
+
+  /* Layout */
+  --max-width: 1160px;
+  --header-h: 68px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0C1A1F;
+    --surface: #13262C;
+    --surface-tint: #16313A;
+    --surface-elevated: #1A3038;
+    --ink: #E7EFF0;
+    --muted: #9CB0B5;
+    --subtle: #6B8288;
+    --line: #254049;
+    --line-strong: #36565F;
+    --accent: #6FC3CF;
+    --accent-hover: #8AD0DA;
+    --accent-soft: #16313A;
+    --accent-ink: #06191D;
+    --sage: #7FD3A4;
+    --sage-soft: #12331F;
+    --warm: #F0C679;
+    --warm-soft: #33280F;
+    --ok: #7FD3A4;
+    --ok-bg: #12331F;
+    --pending: #F0C679;
+    --pending-bg: #33280F;
+    --danger: #E88A8A;
+    --danger-bg: #3A1A1A;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #0C1A1F;
+  --surface: #13262C;
+  --surface-tint: #16313A;
+  --surface-elevated: #1A3038;
+  --ink: #E7EFF0;
+  --muted: #9CB0B5;
+  --subtle: #6B8288;
+  --line: #254049;
+  --line-strong: #36565F;
+  --accent: #6FC3CF;
+  --accent-hover: #8AD0DA;
+  --accent-soft: #16313A;
+  --accent-ink: #06191D;
+  --sage: #7FD3A4;
+  --sage-soft: #12331F;
+  --warm: #F0C679;
+  --warm-soft: #33280F;
+  --ok: #7FD3A4;
+  --ok-bg: #12331F;
+  --pending: #F0C679;
+  --pending-bg: #33280F;
+  --danger: #E88A8A;
+  --danger-bg: #3A1A1A;
+  color-scheme: dark;
+}
